@@ -1,7 +1,7 @@
 'use client'
-import InputComponent, { InputProps } from "@/src/shared/component/inputComponent/page";
+import InputComponent, { InputProps } from "@/src/shared/ui/input.component";
 import { type ChangeEvent, type FormEvent, useState } from "react";
-import CheckboxComponent, { CheckboxProps } from "@/src/shared/component/checkboxComponent/page";
+import CheckboxComponent, { CheckboxProps } from "@/src/shared/ui/checkbox.component";
 import Link from "next/link";
 import { registerSchema, RegisterSchema } from "@/src/features/auth/schemas/register.schema";
 

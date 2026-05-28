@@ -1,7 +1,7 @@
 'use client'
 import { loginSchema, type LoginSchema } from "@/src/features/auth/schemas/login.schema";
-import CheckboxComponent, { CheckboxProps } from "@/src/shared/component/checkboxComponent/page";
-import InputComponent, { InputProps } from "@/src/shared/component/inputComponent/page";
+import CheckboxComponent, { CheckboxProps } from "@/src/shared/ui/checkbox.component";
+import InputComponent, { InputProps } from "@/src/shared/ui/input.component";
 import Link from "next/link";
 import { type ChangeEvent, type FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
